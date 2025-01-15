@@ -14,8 +14,8 @@ The dataset includes:
 
 ## Project Structure
 
-- `Data Cleaning and Preparation`: Utilizes PySpark for reading, cleaning, and merging datasets (train.csv, items.csv, stores.csv).
-- `Feature Engineering`: Extracts relevant features such as item families, perishable items, store locations (city, state), etc.
-- `Prophet Model Tuning`: Implements hyperparameter tuning for Prophet models using a grid search approach to optimize forecasting accuracy.
-- `Forecasting`: Generates sales forecasts for different states and types of items (perishable vs non-perishable) using Prophet.
-- `Visualization`: Plots actual vs. predicted sales trends for visualization and evaluation purposes.
+- Data Cleaning and Preparation: Utilizes PySpark for reading, cleaning, and merging datasets (train.csv, items.csv, stores.csv).
+- Feature Engineering: Extracts relevant features such as item families, perishable items, store locations (city, state), etc.
+- Prophet Model Tuning: Implements hyperparameter tuning for Prophet models using a grid search approach to optimize forecasting accuracy.
+- Forecasting: Generates sales forecasts for different states and types of items (perishable vs non-perishable) using Prophet.
+- Visualization: Plots actual vs. predicted sales trends for visualization and evaluation purposes.
